@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+}
+
+.main {
+    background-color: darkgrey;
+    display: flex;
+    flex: 1;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    height: 50px;
+}
