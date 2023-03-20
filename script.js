@@ -1,7 +1,8 @@
 
-let add = (a,b) => (a + b);
-let sub = (a,b) => (a - b);
-let multiply = (a,b) => (a * b);
-let divide = (a,b) => (a / b);
-
+const operate = {
+add: (a,b) => (a + b),
+sub: (a,b) => (a - b),
+multiply: (a,b) => (a * b),
+divide: (a,b) => (a / b),
+}
 //core math functions

@@ -9,6 +9,8 @@ body {
     background-color: darkgrey;
     display: flex;
     flex: 1;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer {
@@ -17,4 +19,74 @@ body {
     justify-content: center;
     background-color: gray;
     height: 50px;
+}
+
+#container {
+    display:flex;
+    background-color: aquamarine;
+    height: 600px;
+    width: 450px;
+    border-radius: 2%;
+    flex-direction: column;
+    border:solid;
+}
+
+#display {
+    display: flex;
+    background-color:dimgray;
+    height: 75px;
+    padding:15px;
+    border:solid;
+}
+
+#btnContainer {
+    display: flex;
+    border:solid;
+    background-color: rgb(82, 82, 82);
+    gap: 2px;
+    flex:1;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button {
+    background-color: cyan;
+    width:100px;
+    height: 75px;
+    border:solid;
+    border-radius: 20%;
+    font-size: 15px;
+}
+
+#equals {
+    width: 200px;
+    background-color: green;
+}
+
+#clear {
+    width:145px;
+    background-color:firebrick;
+}
+
+#delete {
+    width:145px;
+    background-color: firebrick;
+}
+
+#add {
+    width:145px;
+    background-color: orange;
+}
+
+#sub {
+    background-color: orange;
+}
+
+#multiply {
+    background-color: orange;
+}
+
+#divide {
+    background-color: orange;
 }
