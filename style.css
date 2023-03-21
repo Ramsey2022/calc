@@ -37,6 +37,8 @@ body {
     height: 75px;
     padding:15px;
     border:solid;
+    font-size: 80px;
+    justify-content: right;
 }
 
 #btnContainer {
@@ -60,33 +62,36 @@ body {
 }
 
 #equals {
+    height: 75px;
     width: 200px;
     background-color: green;
+    border:solid;
+    border-radius: 20%;
+    font-size: 15px;
 }
 
-#clear {
+.delBtn {
+    height: 75px;
     width:145px;
     background-color:firebrick;
-}
-
-#delete {
-    width:145px;
-    background-color: firebrick;
+    border:solid;
+    border-radius: 20%;
+    font-size: 15px;
 }
 
 #add {
+    height: 75px;
     width:145px;
-    background-color: orange;
+    border:solid;
+    border-radius: 20%;
+    font-size: 15px;
 }
 
-#sub {
+.opBtn {
     background-color: orange;
-}
-
-#multiply {
-    background-color: orange;
-}
-
-#divide {
-    background-color: orange;
+    border:solid;
+    border-radius: 20%;
+    font-size: 15px;
+    width:100px;
+    height: 75px;
 }
