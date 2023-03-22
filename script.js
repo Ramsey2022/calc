@@ -7,10 +7,13 @@ display.appendChild(displayContent);
 const numBtn = document.querySelectorAll('[numbers]');
 const opBtn = document.querySelectorAll('[operator]');
 const deleteBtn = document.getElementById('delete');
+const decimalBtn = document.getElementById('.');""
 
 numBtn.forEach((button) => button.addEventListener('click', () => buttonEvent(button.textContent)));
 //opBtn.forEach((button) => button.addEventListener('click', () => operate(button.textContent)));
 
+decimalFun = () => displayContent.textContent += '.';
+decimalBtn.addEventListener('click', decimalFun);
 
 deleteFun = () => displayContent.textContent = displayContent.textContent.toString().slice(0,-1);
 deleteBtn.addEventListener('click', deleteFun);
