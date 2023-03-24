@@ -61,6 +61,23 @@ body {
     font-size: 15px;
 }
 
+.button:active {
+    transform: scale(0.98);
+}
+
+.decimalBtn {
+    background-color: cyan;
+    width:100px;
+    height: 75px;
+    border:solid;
+    border-radius: 20%;
+    font-size: 15px;
+}
+
+.decimalBtn:active {
+    transform: scale(0.98);
+}
+
 #equals {
     height: 75px;
     width: 200px;
@@ -68,6 +85,10 @@ body {
     border:solid;
     border-radius: 20%;
     font-size: 15px;
+}
+
+#equals:active{
+    transform: scale(0.98);
 }
 
 .delBtn {
@@ -79,12 +100,33 @@ body {
     font-size: 15px;
 }
 
+.clearBtn {
+    height: 75px;
+    width:145px;
+    background-color:firebrick;
+    border:solid;
+    border-radius: 20%;
+    font-size: 15px;
+}
+
+.clearBtn:active{
+    transform: scale(0.98);
+}
+
+.delBtn:active{
+    transform: scale(0.98);
+}
+
 #add {
     height: 75px;
     width:145px;
     border:solid;
     border-radius: 20%;
     font-size: 15px;
+}
+
+#add:active{
+    transform: scale(0.98);
 }
 
 .opBtn {
@@ -94,4 +136,8 @@ body {
     font-size: 15px;
     width:100px;
     height: 75px;
+}
+
+.opBtn:active{
+    transform: scale(0.98);
 }
